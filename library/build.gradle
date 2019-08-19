@@ -7,10 +7,10 @@ group = "com.github.wandersnail"
 version = lib_version
 
 android {
-    compileSdkVersion rootProject.ext.compileSdkVersion
+    compileSdkVersion rootProject.ext.ver_target_sdk
     defaultConfig {
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
+        minSdkVersion rootProject.ext.ver_min_sdk
+        targetSdkVersion rootProject.ext.ver_target_sdk
         versionCode 1
         versionName "$lib_version"
     }
@@ -28,7 +28,7 @@ android {
 
 dependencies {
     compileOnly fileTree(dir: 'libs', include: ['*.jar'])
-    compileOnly "androidx.appcompat:appcompat:$appcompat_version"
+    compileOnly "androidx.appcompat:appcompat:$ver_appcompat"
 }
 
 publish {

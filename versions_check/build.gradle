@@ -1,0 +1,66 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.ver_target_sdk
+    defaultConfig {
+        minSdkVersion rootProject.ext.ver_min_sdk
+        targetSdkVersion rootProject.ext.ver_target_sdk
+        versionCode 1
+        versionName "1"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compileOnly fileTree(dir: 'libs', include: ['*.jar'])
+    compileOnly "androidx.appcompat:appcompat:$ver_appcompat"
+    compileOnly "androidx.recyclerview:recyclerview:$ver_recyclerview"
+    compileOnly "androidx.cardview:cardview:$ver_cardview"
+    compileOnly "com.google.android.material:material:$ver_material"
+    compileOnly "androidx.constraintlayout:constraintlayout:$ver_constraintlayout"
+    compileOnly "androidx.core:core:$ver_core"
+    compileOnly "androidx.core:core-ktx:$ver_core"
+    compileOnly "com.wang.avi:library:$ver_avi_loading"
+    compileOnly "cn.bingoogolapple:bga-qrcode-zxing:$ver_bga_qrcode"
+    compileOnly "org.greenrobot:eventbus:$ver_eventbus"
+    compileOnly "com.google.code.gson:gson:$ver_gson"
+    compileOnly "org.jsoup:jsoup:$ver_jsoup"
+    compileOnly "com.github.barteksc:android-pdf-viewer:$ver_pdf_viewer"
+    compileOnly "com.tencent:mmkv:$ver_mmkv"
+    compileOnly "com.alibaba:fastjson:$ver_fastjson"
+    compileOnly "androidx.exifinterface:exifinterface:$ver_exifinterface"
+    compileOnly "com.github.CymChad:BaseRecyclerViewAdapterHelper:$ver_CymChad_BaseRecyclerViewAdapterHelper"
+    compileOnly "com.github.hackware1993:MagicIndicator:$ver_magic_indicator"
+    compileOnly "net.zetetic:android-database-sqlcipher:$ver_sqlcipher"
+    compileOnly "androidx.room:room-runtime:$ver_room"
+    compileOnly "androidx.lifecycle:lifecycle-common:$ver_lifecycle"
+    compileOnly "com.google.dagger:dagger:$ver_dagger"
+    compileOnly "androidx.paging:paging-common:$ver_paging"
+    compileOnly "com.github.bumptech.glide:glide:$ver_glide"
+    compileOnly "androidx.navigation:navigation-runtime:$ver_navigation"
+    compileOnly "com.github.wandersnail:commons-android:$ver_commons_android"
+    compileOnly "com.github.wandersnail:commons-basic:$ver_commons_basic"
+    compileOnly "com.github.wandersnail:commons-utils:$ver_commons_utils"
+    compileOnly "com.github.wandersnail:commons-helper:$ver_commons_helper"
+    compileOnly "com.github.wandersnail:commons-method-poster:$ver_commons_method_poster"
+    compileOnly "com.github.wandersnail:fileselector:$ver_fileselector"
+    compileOnly "com.github.wandersnail:widgets:$ver_widgets"
+    compileOnly "com.github.wandersnail:network-requester:$ver_network_requester"
+    compileOnly "com.github.wandersnail:easyble2:$ver_easyble2"
+    compileOnly "com.github.wandersnail:swipemenulistview:$ver_swipemenulistview"
+    compileOnly "com.github.wandersnail:treeadapter:$ver_treeadapter"
+    compileOnly "com.alibaba:arouter-api:$ver_arouter_api"
+    compileOnly "com.alibaba:arouter-compiler:$ver_arouter_compiler"
+    compileOnly "com.alibaba:arouter-register:$ver_arouter_register"
+    compileOnly "com.squareup.retrofit2:retrofit:$ver_retrofit2"
+    compileOnly "io.reactivex.rxjava2:rxandroid:$ver_rxandroid"
+    compileOnly "io.reactivex.rxjava2:rxkotlin:$ver_rxkotlin"
+    compileOnly "com.tencent.bugly:crashreport:$ver_crashreport"
+    compileOnly "com.tencent.bugly:nativecrashreport:$ver_nativecrashreport"
+}
