@@ -1,6 +1,6 @@
 ## 代码托管
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/cn.wandersnail/commons-base/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cn.wandersnail/commons-base)
-[![Bintray](https://api.bintray.com/packages/wandersnail/android/commons-base/images/download.svg) ](https://bintray.com/wandersnail/android/commons-base/_latestVersion)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/cn.wandersnail/common-base/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cn.wandersnail/common-base)
+[![Bintray](https://api.bintray.com/packages/wandersnail/android/common-base/images/download.svg) ](https://bintray.com/wandersnail/android/common-base/_latestVersion)
 
 
 ## 使用
@@ -9,7 +9,7 @@
 ```
 dependencies {
 	...
-	implementation 'cn.wandersnail:commons-base:latestVersion'
+	implementation 'cn.wandersnail:common-base:latestVersion'
 }
 ```
 
@@ -19,7 +19,7 @@ allprojects {
 	repositories {
 		...
 		mavenCentral()
-		maven { url 'https://dl.bintray.com/wandersnail/android/' }
+		maven { url 'https://dl.bintray.com/wandersnail/androidx/' }
 	}
 }
 ```
