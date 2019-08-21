@@ -1,13 +1,14 @@
-package com.snail.commons.entity;
+package cn.wandersnail.commons.basic.entity;
 
 import android.content.Context;
 import android.content.ContextWrapper;
 import android.database.DatabaseErrorHandler;
 import android.database.sqlite.SQLiteDatabase;
-import androidx.annotation.NonNull;
 
 import java.io.File;
 import java.util.Objects;
+
+import androidx.annotation.NonNull;
 
 /**
  * date: 2019/8/6 12:49

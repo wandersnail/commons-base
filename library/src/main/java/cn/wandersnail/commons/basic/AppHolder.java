@@ -1,4 +1,4 @@
-package com.snail.commons;
+package cn.wandersnail.commons.basic;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;

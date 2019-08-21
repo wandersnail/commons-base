@@ -1,6 +1,5 @@
 ## 代码托管
-[![JitPack](https://jitpack.io/v/wandersnail/commons-basic.svg)](https://jitpack.io/#wandersnail/commons-basic)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.wandersnail/commons-basic/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.wandersnail/commons-basic)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/cn.wandersnail/commons-basic/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cn.wandersnail/commons-basic)
 [![Bintray](https://api.bintray.com/packages/wandersnail/android/commons-basic/images/download.svg) ](https://bintray.com/wandersnail/android/commons-basic/_latestVersion)
 
 
@@ -10,16 +9,16 @@
 ```
 dependencies {
 	...
-	implementation 'com.github.wandersnail:commons-basic:latestVersion'
+	implementation 'cn.wandersnail:commons-basic:latestVersion'
 }
 ```
 
-2. 如果从jcenter下载失败。在project的build.gradle里的repositories添加内容，最好两个都加上，有时jitpack会抽风，同步不下来。添加完再次同步即可。
+2. 如果从jcenter下载失败。在project的build.gradle里的repositories添加内容，最好两个都加上，添加完再次同步即可。
 ```
 allprojects {
 	repositories {
 		...
-		maven { url 'https://jitpack.io' }
+		mavenCentral()
 		maven { url 'https://dl.bintray.com/wandersnail/android/' }
 	}
 }

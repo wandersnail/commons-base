@@ -7,6 +7,11 @@ android {
         targetSdkVersion rootProject.ext.ver_target_sdk
         versionCode 1
         versionName "1"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [AROUTER_MODULE_NAME: project.getName()]
+            }
+        }
     }
 
     buildTypes {
@@ -56,7 +61,7 @@ dependencies {
     compileOnly "com.github.wandersnail:swipemenulistview:$ver_swipemenulistview"
     compileOnly "com.github.wandersnail:treeadapter:$ver_treeadapter"
     compileOnly "com.alibaba:arouter-api:$ver_arouter_api"
-    compileOnly "com.alibaba:arouter-compiler:$ver_arouter_compiler"
+    annotationProcessor "com.alibaba:arouter-compiler:$ver_arouter_compiler"
     compileOnly "com.alibaba:arouter-register:$ver_arouter_register"
     compileOnly "com.squareup.retrofit2:retrofit:$ver_retrofit2"
     compileOnly "io.reactivex.rxjava2:rxandroid:$ver_rxandroid"

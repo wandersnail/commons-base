@@ -1,6 +1,7 @@
-package com.snail.commons.interfaces;
+package cn.wandersnail.commons.basic.interfaces;
 
 import android.graphics.drawable.Drawable;
+
 import androidx.annotation.NonNull;
 
 /**

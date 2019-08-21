@@ -1,4 +1,4 @@
-package com.snail.commons.entity;
+package cn.wandersnail.commons.basic.entity;
 
 import android.os.Handler;
 import android.os.Looper;

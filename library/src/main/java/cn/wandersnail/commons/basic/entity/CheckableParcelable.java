@@ -1,4 +1,4 @@
-package com.snail.commons.entity;
+package cn.wandersnail.commons.basic.entity;
 
 import android.os.Bundle;
 import android.os.Parcel;
@@ -34,7 +34,7 @@ public class CheckableParcelable<T extends Parcelable> extends CheckableItem<T> 
         setChecked(in.readByte() != 0);
     }
 
-    public static final Parcelable.Creator<CheckableParcelable> CREATOR = new Parcelable.Creator<CheckableParcelable>() {
+    public static final Creator<CheckableParcelable> CREATOR = new Creator<CheckableParcelable>() {
         @Override
         public CheckableParcelable createFromParcel(Parcel source) {
             return new CheckableParcelable(source);
