@@ -1,6 +1,6 @@
 ## 代码托管
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/cn.wandersnail/common-base/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cn.wandersnail/common-base)
-[![Bintray](https://api.bintray.com/packages/wandersnail/android/common-base/images/download.svg) ](https://bintray.com/wandersnail/android/common-base/_latestVersion)
+[![Bintray](https://api.bintray.com/packages/wandersnail/androidx/common-base/images/download.svg) ](https://bintray.com/wandersnail/androidx/common-base/_latestVersion)
 
 
 ## 使用
