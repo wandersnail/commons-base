@@ -1,4 +1,4 @@
-package cn.wandersnail.commons.basic.interfaces;
+package cn.wandersnail.commons.base.interfaces;
 
 import androidx.annotation.NonNull;
 

@@ -4,9 +4,9 @@ apply plugin: 'maven'
 
 def lib_version = '1.0.0'
 def lib_group = 'cn.wandersnail'
-def lib_artifact = 'commons-basic'
+def lib_artifact = 'commons-base'
 def lib_packaging = 'aar'
-def lib_description = 'commons-basic for Android'
+def lib_description = 'commons-base for Android'
 group = lib_group
 version = lib_version
 
@@ -62,7 +62,7 @@ publish {
     artifactId = lib_artifact //项目名称  
     publishVersion = lib_version //版本号  
     desc = lib_description
-    website = 'https://github.com/wandersnail/commons-basic'
+    website = 'https://github.com/wandersnail/commons-base'
 }
 
 if (project.getGradle().startParameter.taskNames.any { it.contains('bintrayUpload') }) {
@@ -83,9 +83,9 @@ if (project.getGradle().startParameter.taskNames.any { it.contains('bintrayUploa
                     version lib_version
 
                     scm {
-                        url 'https://github.com/wandersnail/commons-basic'
-                        connection 'scm:git:https://github.com/wandersnail/commons-basic.git'
-                        developerConnection 'scm:git:https://github.com/wandersnail/commons-basic.git'
+                        url 'https://github.com/wandersnail/commons-base'
+                        connection 'scm:git:https://github.com/wandersnail/commons-base.git'
+                        developerConnection 'scm:git:https://github.com/wandersnail/commons-base.git'
                     }
 
                     licenses {

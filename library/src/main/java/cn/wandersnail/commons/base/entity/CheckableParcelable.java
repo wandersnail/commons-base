@@ -1,4 +1,4 @@
-package cn.wandersnail.commons.basic.entity;
+package cn.wandersnail.commons.base.entity;
 
 import android.os.Bundle;
 import android.os.Parcel;

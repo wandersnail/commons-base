@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="cn.wandersnail.commons.basic">
+          package="cn.wandersnail.commons.base">
     <application>
         <provider
                 android:name="androidx.core.content.FileProvider"

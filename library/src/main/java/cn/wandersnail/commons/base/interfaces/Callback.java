@@ -1,4 +1,4 @@
-package cn.wandersnail.commons.basic.interfaces;
+package cn.wandersnail.commons.base.interfaces;
 
 /**
  * date: 2019/8/6 10:04

@@ -1,7 +1,7 @@
-package cn.wandersnail.commons.basic.entity;
+package cn.wandersnail.commons.base.entity;
 
 
-import cn.wandersnail.commons.basic.interfaces.Checkable;
+import cn.wandersnail.commons.base.interfaces.Checkable;
 
 /**
  * date: 2019/8/6 12:35

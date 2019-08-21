@@ -1,6 +1,6 @@
 ## 代码托管
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/cn.wandersnail/commons-basic/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cn.wandersnail/commons-basic)
-[![Bintray](https://api.bintray.com/packages/wandersnail/android/commons-basic/images/download.svg) ](https://bintray.com/wandersnail/android/commons-basic/_latestVersion)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/cn.wandersnail/commons-base/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cn.wandersnail/commons-base)
+[![Bintray](https://api.bintray.com/packages/wandersnail/android/commons-base/images/download.svg) ](https://bintray.com/wandersnail/android/commons-base/_latestVersion)
 
 
 ## 使用
@@ -9,7 +9,7 @@
 ```
 dependencies {
 	...
-	implementation 'cn.wandersnail:commons-basic:latestVersion'
+	implementation 'cn.wandersnail:commons-base:latestVersion'
 }
 ```
 
