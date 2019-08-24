@@ -54,7 +54,7 @@ dependencies {
     compileOnly "cn.wandersnail:common-utils:$ver_common_utils"
     compileOnly "cn.wandersnail:common-helper:$ver_common_helper"
     compileOnly "cn.wandersnail:common-poster:$ver_common_poster"
-    compileOnly "cn.wandersnail:file-selector:$ver_fileselector"
+    compileOnly "cn.wandersnail:file-selector:$ver_file_selector"
     compileOnly "cn.wandersnail:widget-generic:$ver_widget_generic"
     compileOnly "cn.wandersnail:easyhttp:$ver_easyhttp"
     compileOnly "cn.wandersnail:easyble-x:$ver_easyble_x"
