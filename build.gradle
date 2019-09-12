@@ -24,7 +24,7 @@ buildscript {
         ver_common_poster = '1.0.5'
         ver_common_helper = '1.0.3'
         ver_common_full = '1.0.8'
-        ver_file_selector = '1.0.2'
+        ver_file_selector = '1.0.4'
         ver_widget_generic = '1.0.5'
         ver_common_observer = '1.0.5'
         ver_easyhttp = '1.0.5'

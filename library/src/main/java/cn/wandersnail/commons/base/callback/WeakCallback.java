@@ -14,7 +14,7 @@ import cn.wandersnail.commons.base.interfaces.Callback;
 public abstract class WeakCallback<R, T> implements Callback<T> {
     private WeakReference<R> weakRef;
 
-    public WeakCallback(@androidx.annotation.NonNull R referent) {
+    public WeakCallback(@NonNull R referent) {
         weakRef = new WeakReference<>(referent);
     }
 
