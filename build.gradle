@@ -2,33 +2,33 @@
 
 buildscript {
     ext {
-        ver_min_sdk = 21
+        ver_min_sdk = 19
         ver_target_sdk = 28
 
         ver_dagger = '2.24'
         ver_glide = '4.9.0'
         ver_kotlin = '1.3.41'
-        ver_lifecycle = '2.1.0'
+        ver_lifecycle = '2.1.0-rc01'
         ver_exifinterface = '1.0.0'
         ver_navigation = '2.1.0'
         ver_paging = '2.1.0'
-        ver_room = '2.1.0'
+        ver_room = '2.2.0'
         ver_core = '1.1.0'
         ver_constraintlayout = '1.1.3'
         ver_material = '1.0.0'
         ver_cardview = '1.0.0'
         ver_recyclerview = '1.0.0'
         ver_appcompat = '1.1.0'
-        ver_common_base = '1.0.2'
-        ver_common_utils = '1.0.4'
-        ver_common_poster = '1.0.5'
-        ver_common_helper = '1.0.3'
-        ver_common_full = '1.0.8'
-        ver_file_selector = '1.0.4'
-        ver_widget_generic = '1.0.5'
-        ver_common_observer = '1.0.5'
-        ver_easyhttp = '1.0.5'
-        ver_easyble_x = '1.0.4'
+        ver_common_base = '1.0.1'
+        ver_common_utils = '1.0.1'
+        ver_common_observer = '1.0.1'
+        ver_common_poster = '1.0.1'
+        ver_common_helper = '1.0.1'
+        ver_common_full = '1.0.1'
+        ver_file_selector = '1.0.1'
+        ver_widget_generic = '1.0.3'
+        ver_easyhttp = '1.0.4'
+        ver_easyble_x = '1.0.1'
         ver_swipemenu_listview = '1.0.0'
         ver_tree_listadapter = '1.0.0'
         ver_avi_loading = '2.1.3'
@@ -56,7 +56,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath 'com.android.tools.build:gradle:3.5.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$ver_kotlin"
         classpath 'com.novoda:bintray-release:0.9.1'
         // NOTE: Do not place your application dependencies here; they belong
